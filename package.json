@@ -1,0 +1,30 @@
+{
+  "name": "blog-messages_rcs_nodejs-try_on",
+  "version": "1.0.0",
+  "description": "A virtual try-on application using Gemini AI",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.16.0",
+    "express": "^4.19.2",
+    "@vonage/jwt": "^1.6.0",
+    "@vonage/messages": "^1.2.0",
+    "@vonage/server-sdk": "^3.19.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "virtual-tryon",
+    "ai",
+    "gemini",
+    "fashion"
+  ],
+  "author": "",
+  "license": "MIT"
+}
