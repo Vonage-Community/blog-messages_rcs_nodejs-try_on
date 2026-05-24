@@ -9,7 +9,7 @@
     "dev": "node --watch src/index.js"
   },
   "dependencies": {
-    "@google/genai": "^1.16.0",
+    "@google/genai": "^1.22.0",
     "express": "^4.19.2",
     "@vonage/jwt": "^1.6.0",
     "@vonage/messages": "^1.2.0",
